@@ -1,6 +1,6 @@
 node default {
    file {'/root/README':
-     enable => file,
+     ensure => file,
      content => 'This is a test',
    }
 }
